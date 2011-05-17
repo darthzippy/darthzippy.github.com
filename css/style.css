@@ -103,8 +103,7 @@ img { -moz-box-shadow: 10px 10px 5px #888; -webkit-box-shadow: 7px 7px 3px #888;
 #profile-name { width: 500px; float: left; margin: 20px 40px; }
 #profile-name p { padding: 20px 20px; color: #555; font-family: 'Myriad-Pro', 'Myriad', helvetica, arial, sans-serif; font-size: 125%; }
 
-.column { width: 300px; float: left; margin-top: 20px; border: 1px solid #999; }
-.column:first-child { margin-left: 30px; }
+.column { width: 300px; float: left; margin-top: 20px; }
 .column ul li { font-size: 60%; list-style: none; }
 .column img { display: block; padding: 10px; border: 1px solid #777; width: 200px; margin: 0 auto; }
 
