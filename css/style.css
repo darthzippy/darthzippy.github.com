@@ -120,17 +120,20 @@ img { background-color: #fff; -moz-box-shadow: 10px 10px 5px #888; -webkit-box-s
 
 #profile img { height: 200px; display: block; padding: 20px 10px 30px 10px; border: 1px solid #777; float: left; margin-left: 100px; -webkit-transform: rotate(-7deg); -moz-transform: rotate(-7deg); }
 #profile-name { width: 500px; float: left; margin: 20px 40px; }
-#profile-name p { padding: 20px 20px; color: #555; font-family: 'Myriad-Pro', 'Myriad', helvetica, arial, sans-serif; font-size: 125%; }
+#profile-name p { padding: 20px 20px; color: #555; font-size: 125%; }
 #subtitle { font-size: 200%; display: block;}
 
 .column { width: 300px; float: left; margin-top: 10px; display: block; }
-.column p { padding-top: 20px; }
+.column p { padding-top: 20px; font-size: 150%; }
 .leftmost { margin-left: 30px; }
 .column ul li { font-size: 60%; list-style: none; text-align: left; }
-.column img { display: block; padding: 10px; border: 1px solid #777; width: 200px; margin: 0 auto; }
+.column img { display: block; padding: 10px; border: 1px solid #999; width: 200px; margin: 0 auto; }
+
+#resume { text-align: center; font-size: 200%; font-weight: bold; margin-bottom: 40px; }
+#resume a { text-decoration: none; }
 
 footer { width: auto; height: 270px; border: 1px solid #999; }
-
+foooter img { }
 
 
 .ir { display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }
