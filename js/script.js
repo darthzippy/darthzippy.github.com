@@ -6,4 +6,6 @@ $(document).ready(function() {
 		'titleShow'		: true, 
 		'titlePosition' : 'inside'
 	});
+	
+	$('#portfolio1').codaSlider();
 });

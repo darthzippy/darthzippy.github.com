@@ -133,6 +133,16 @@ ul li { list-style: none; text-align: left; }
 #resume { text-align: center; font-size: 200%; font-weight: bold; margin-bottom: 40px; }
 #resume a { text-decoration: none; }
 
+
+.panel-wrapper { height: 400px; border: 1px dotted red;}
+.panel-wrapper p {padding: 15px;}
+.sprite {width: 500px; height: 350px; background-image: url(../images/portfolio-sprite.png); margin: 15px; float: left;}
+
+#sprite1 {background-position: 0px 0px;}
+#sprite2 {background-position: 0px -350px;}
+#sprite3 {background-position: 0px -700px;}
+#sprite4 {background-position: 0px -1050px;;}
+
 footer { width: auto; height: 270px; padding: 20px 80px; border: 1px solid #999; }
 foooter ul li { padding: 5px; }
 
