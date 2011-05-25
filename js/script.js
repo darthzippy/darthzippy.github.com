@@ -1,9 +1,11 @@
-$(document).ready(function() {
+$(document).ready(function() {  
 
-	/* This is basic - uses default settings */
-	
-	$("a.box").fancybox({
-		'titleShow'		: true, 
-		'titlePosition' : 'inside'
+	$('.slideshow') 
+	.before('<div id="nav">') 
+	.cycle({ 
+	    fx:     'turnLeft', 
+	    speed:  'fast', 
+	    timeout: 0, 
+	    pager:  '#nav' 
 	});
 });

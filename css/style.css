@@ -130,6 +130,15 @@ ul li { list-style: none; text-align: left; }
 .column ul li { font-size: 60%; }
 .column img { display: block; padding: 10px; border: 1px solid #999; width: 200px; margin: 0 auto; }
 
+.sprite-wrapper { width: 700px; border: 1px dashed blue;}
+.sprite {width: 500px; height: 350px; background-image: url(../images/portfolio-sprite.png); margin: 20px; border: 1px solid #888; }
+.sprite {border: 1px solid red; float: left;}
+.sprite p { display: block; }
+#sprite1 {background-position: 0px 0px;}
+#sprite2 {background-position: 0px -350px;}
+#sprite3 {background-position: 0px -700px;}
+#sprite4 {background-position: 0px -1050px;}
+
 #resume { text-align: center; font-size: 200%; font-weight: bold; margin-bottom: 40px; }
 #resume a { text-decoration: none; }
 
