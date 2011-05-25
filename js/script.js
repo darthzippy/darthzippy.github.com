@@ -4,7 +4,7 @@ $(document).ready(function() {
 	.before('<div id="nav">') 
 	.cycle({ 
 	    fx:     'turnLeft', 
-	    speed:  'fast', 
+	    speed:  'slow', 
 	    timeout: 0, 
 	    pager:  '#nav' 
 	});
