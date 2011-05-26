@@ -110,8 +110,8 @@ body {
 
 .container { width: 960px; margin: 0 auto; text-align: left; margin-top: 40px; }
 .content { width: auto; height: 240px; }
-#portfolio, #skills { padding-top: 30px; }
-#skills { height: 200px; }
+#portfolio, #skills {margin-top: 30px;}
+#skills { height: 200px; margin-top: 60px; }
 
 h1, h2, #subtitle, .column p { text-align: center; }
 h1 { font-size: 75px; line-height: 82px;}
@@ -124,14 +124,22 @@ ul li { list-style: none; text-align: left; }
 #profile-name p { padding: 20px 20px; color: #555; font-size: 125%; }
 #subtitle { font-size: 200%; display: block;}
 
+#portfolio {height: auto;}
 .column { width: 300px; float: left; margin-top: 10px; display: block; }
 .column p { padding-top: 20px; font-size: 150%; }
 .leftmost { margin-left: 30px; }
 .column ul li { font-size: 60%; }
 .column img { display: block; padding: 10px; border: 1px solid #999; width: 200px; margin: 0 auto; }
 
-.sprite-wrapper { width: 800px;}
-.sprite {width: 500px; height: 350px; background-image: url(../images/portfolio-sprite.png); border: 1px solid #888; float: left; margin-right: 20px; }
+.slideshow { margin: 0 auto;}
+
+#nav {width: 100px; height: 50px; margin: 0 auto; padding-top: 20px;}
+#nav a { border: 1px solid #ccc; background: #fc0; text-decoration: none; margin: 0 5px; padding: 3px 5px;  }
+#nav a.activeSlide { background: #ea0 }
+#nav a:focus { outline: none; }
+
+.sprite {width: 800px; height: 350px; background-image: url(../images/portfolio-sprite.png); background-repeat: repeat-y; float: left; margin-right: 20px; }
+.sprite p {display: block; width:280px; float: right; margin-left: 20px;}
 #sprite1 {background-position: 0px 0px;}
 #sprite2 {background-position: 0px -350px;}
 #sprite3 {background-position: 0px -700px;}
