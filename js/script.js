@@ -8,4 +8,6 @@ $(document).ready(function() {
 	    timeout: 0, 
 	    pager:  '#nav' 
 	});
+	
+	$('#portfolio1').codaSlider();
 });
