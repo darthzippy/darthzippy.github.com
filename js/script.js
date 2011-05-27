@@ -9,6 +9,6 @@ $(document).ready(function() {
 	    pager:  '#nav' 
 	});
 	
-	$('.description a')
+	$('a')
 	  .attr("target", "_blank");
 });
