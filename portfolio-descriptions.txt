@@ -1,0 +1,24 @@
+###CET Apps###
+
+Web application written in Ruby on Rails for use by the Center for Educational Technology (CET) at Gordon College. Used for computer inventory, software licensing for 1600 students, student employee time tracking & sales of DVD media.
+
+Originally written in Rails 1.x, upgraded to Rails 2.x and completely rewritten in Rails 3.1 (Summer 2011)
+
+####FEATURES####
+*	LDAP authentication through Active Authentication plugin in Rails 1 and 2, and the Devise gem in Rails 3
+*	PDF and CSV exporting of computer inventory lists, both for pre-compiles lists, and ad-hoc lists created by advanced searches
+
+###www.skyasylum.com### 
+
+Website for a Boston-based indie film company (of which I am also a part). Hand-coded HTML and CSS with a dash of JQuery. Responsible for site design and construction, as well as securing the domain name and hosting.
+
+[www.skyasylum.com](http://www.skyasylum.com)
+
+###blogs.gordon.edu### 
+
+The home of blogging at [Gordon College](http://www.gordon.edu). Responsible for administering Wordpress MU site (hosted though [EduBlogs](http://www.edublogs.org)), custom theme development , as well as collaborating on and coding site design.
+
+[blogs.gordon.edu](http://blogs.gordon.edu)
+
+###Gordon College Media Release Form Database###
+

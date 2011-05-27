@@ -8,4 +8,7 @@ $(document).ready(function() {
 	    timeout: 0, 
 	    pager:  '#nav' 
 	});
+	
+	$('.description a')
+	  .attr("target", "_blank");
 });
