@@ -86,13 +86,15 @@ a:hover { color: #036; }
     \\ ========================================== //
 */
 
-body {
+body { background-color: #444; 
 	font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 200;
 	text-shadow: 0 2px #fff;
 	color: #777;
 	text-align: center;
-	
+}
+
+.container {
 	background-color: rgb(233,236,239);
 	background-image: -webkit-gradient(
 		linear,
@@ -106,12 +108,14 @@ body {
 		rgb(255,255,255) 0%,
 		rgb(233,236,239) 100%
 	);
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
 }
 
-.container { width: 960px; margin: 0 auto; text-align: left; margin-top: 40px; }
+.container { width: 960px; margin: 0 auto; text-align: left; margin-top: 40px; margin-bottom: 40px;}
 .content { width: auto; height: 240px; }
-#portfolio, #skills {margin-top: 30px;}
-#skills { height: 200px; margin-top: 60px; }
+#portfolio {margin-top: 30px;}
+#skills { height: 200px; margin-top: 20px; margin-bottom: 20px; }
 
 h1, h2, #subtitle, .column p { text-align: center; }
 h1 { font-size: 75px; line-height: 82px;}
@@ -130,7 +134,7 @@ a {text-decoration: none; font-weight: bold;}
 .column { width: 300px; float: left; margin-top: 10px; display: block; }
 .column p { padding-top: 20px; font-size: 150%; }
 .leftmost { margin-left: 30px; }
-.column ul li { font-size: 60%; }
+.column ul li { font-size: 160%; text-align: center; }
 .column img { display: block; padding: 10px; border: 1px solid #999; width: 200px; margin: 0 auto; }
 
 .slideshow { margin: 0 auto; margin-top: 20px; }
@@ -156,10 +160,18 @@ a {text-decoration: none; font-weight: bold;}
 #resume { text-align: center; font-size: 200%; font-weight: bold; margin-bottom: 40px; }
 
 
-footer { width: auto; height: 270px; padding: 20px 80px; border: 1px solid #999; }
-foooter ul li { padding: 5px; }
+footer { width: auto; height: 120px; padding-bottom: 40px; }
+footer h3 {display: block; padding-bottom: 20px; text-align: center;}
+footer ul { width: auto; height: 32px; padding-left: 120px;}
+footer li { float: left; }
+footer li a { display: block; width: 140px; padding-left: 36px; }
+footer li a { height: 32px; background-image: url(../images/contact_icons.png); background-repeat: repeat-y; }
+#email {background-position: 0px 0px;}
+#github {background-position: 0px -32px;}
+#twitter {background-position: 0px -64px;}
+#linkedin {background-position: 0px -96px;}
 
-
+#copyright { clear: both; padding-top: 40px; text-align: center;}
 .ir { display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }
 .hidden { display: none; visibility: hidden; }
 .visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
